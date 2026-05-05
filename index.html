@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanak Rawat - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <a href="#home" class="logo"><span>Kanak</span> Rawat</a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hi,</h1>
+                <h2>I'm <span id="name">Kanak Rawat</span></h2>
+                <p class="subtitle">Full Stack Developer | Web Enthusiast</p>
+                <p class="welcome-text">"Welcome to my portfolio!"</p>
+                <button class="cta-button" onclick="scrollToSection('contact')">Contact Me</button>
+            </div>
+            <div class="home-image">
+                <img id="profileImg" src="mee.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I'm a passionate <span class="highlight">web developer</span> currently pursuing MCA. I specialize in creating responsive and visually appealing websites using <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span class="highlight">JavaScript</span>. I'm expanding my skills in <span class="highlight">full-stack development</span> with React, Node.js, and MongoDB.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-category">Frontend</div>
+                <div class="skill-items">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-category">Backend</div>
+                <div class="skill-items">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-category">Tools & Version Control</div>
+                <div class="skill-items">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Social Profiles Section -->
+    <section id="profiles" class="section profiles-section">
+        <h2>Connect With Me</h2>
+        <div class="profiles-container">
+            <a href="https://github.com/KR-dev6" class="profile-link" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kanak-rawat/" class="profile-link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://leetcode.com/u/Kanak-Rawat/" class="profile-link" target="_blank">
+                <i class="fas fa-code"></i>
+                <span>LeetCode</span>
+            </a>
+            <a href="https://www.hackerrank.com/profile/kanakrawat1910" class="profile-link" target="_blank">
+                <i class="fas fa-cube"></i>
+                <span>HackerRank</span>
+            </a>
+            <a href="Kanak  Resume.pdf" class="profile-link" target="_blank" download>
+                <i class="fas fa-file-pdf"></i>
+                <span>Resume</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2>Let's Collaborate</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Kanak Rawat | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
